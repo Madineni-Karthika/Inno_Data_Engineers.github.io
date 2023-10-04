@@ -2,8 +2,43 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+    margin: 0; /* Reset default margin to remove any spacing around the body */
+    padding: 0; /* Reset default padding to remove any spacing inside the body */
 }
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
 h1 {
-    color: #333;
+    font-size: 24px;
+    margin: 0;
 }
+
+section {
+    background-color: #fff; /* Set a white background for sections */
+    padding: 20px;
+    margin: 20px; /* Add margin to separate sections */
+    border: 1px solid #ddd; /* Add a border to sections for separation */
+}
+
+ul {
+    list-style-type: disc; /* Style the bullet points in the list */
+    margin-left: 20px; /* Add some left margin to the list items */
+}
+
+address {
+    font-style: normal; /* Reset italic style */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
 
